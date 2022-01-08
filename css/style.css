@@ -80,8 +80,17 @@ body{
 .mainbox{
     display: grid;
     grid-template-columns: 200px auto;
+    
 
 }
+.maindiv3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+    
+
 
 
 
